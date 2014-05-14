@@ -1,0 +1,7 @@
+.sf-menu { height: 20px; }
+.sf-menu li{ display: inline-block; position: relative; width: 100px;cursor: pointer;}
+.sf-menu li ul { display:none; position: absolute; padding: 5px; background-color: white; z-index: 2000;  top:30px; width: 200px; left:-80px; border-radius: 4px;} 
+.sf-menu li ul li.arrow { background-image: url('images/arrow-white.png'); position: absolute; height: 20px; width: 100%; display: block; top:-20px; left:0px; background-repeat: no-repeat; background-position: center bottom;}
+.sf-menu li ul li{ display: block; list-style: none; width: 100%;}
+.sf-menu li ul li a{ display: block; width: 100%;}
+.sf-menu li ul li a:hover{ background-color: #999;}
