@@ -63,6 +63,7 @@ class AccountController extends AppController {
 
 
 	public function particulier_dashboard(){
+	    // delta 
 		$idUser = AuthComponent::user('id');
 		
 			// Récupération des messages non lu et des derniers messages
